@@ -8,4 +8,21 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="pic\**" />
+    <EmbeddedResource Remove="pic\**" />
+    <None Remove="pic\**" />
+    <Page Remove="pic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="grass.png" />
+    <None Remove="res\grass.png" />
+    <None Remove="yay.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\grass.png" />
+  </ItemGroup>
+
 </Project>
